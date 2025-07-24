@@ -79,15 +79,12 @@
 /* container */
 
 .container {
-	width: 980px;
-	min-height: 1000px;
-	max-height: 999999px; /* prevents font boosting */
-	margin: 56px auto 20px; /* top right bottom left */
-	box-shadow: 0 0 7px #122b6d; /*527bbd;*/
-	text-align: left;
-	background: #fff;
-	padding: 14px 14px 14px 14px; /* top right bottom left */
-	z-index: 1;
+	width: 90%;
+	max-width: 1200px;
+	margin: 56px auto 20px;
+	box-shadow: none;
+	background: transparent;
+	padding: 14px;
 }
 
 a.anchor {
