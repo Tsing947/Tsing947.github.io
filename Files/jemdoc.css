@@ -79,12 +79,16 @@
 /* container */
 
 .container {
-	width: 90%;
-	max-width: 1200px;
+	width: 980px;
+	min-height: auto;
+	max-height: none;
 	margin: 56px auto 20px;
-	box-shadow: none;
-	background: transparent;
+	box-shadow: 0 0 7px #122b6d;
+	text-align: left;
+	background: #fff;
 	padding: 14px;
+	z-index: 1;
+	overflow: visible;
 }
 
 a.anchor {
