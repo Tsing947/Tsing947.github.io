@@ -1,260 +1,240 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<meta name="robots" content="index, follow" />
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta name="keywords" content="Huaqing Wu, 吴华清, Remote Sensing, Image Processing, Deep Learning, Denoising, Cloud Removal, Hyperspecral, Wuhan University">
-<link rel="stylesheet" href="./Files/jemdoc.css" type="text/css" />
-<script src="jquery.min.js"></script>
-<link rel="shortcut icon" href="./Files/label.jpg">
-<link rel="stylesheet" href="./academicons-1.9.1/css/academicons.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
- 
-<title>Huaqing Wu</title>
-</head>
-
-<body>
-<a id="home" class="anchor"></a>
-<div id="container"> 
-<div class="container"> 
-
-<div class="text" style="text-align:center">
-<A href="https://tsing947.github.io/index"><font size="6">Homepage</font></A> | 
-<A href="https://tsing947.github.io/news"><font size="6">News</font></A> | 
-<A href="https://tsing947.github.io/projects"><font size="6">Projects</font></A> | 
-<A href="https://tsing947.github.io/awards"><font size="6">Awards</font></A> |
-<A href="https://tsing947.github.io/academic activities"><font size="6">Academic activities</font></A> 
-</div> 
-<br />
- 
 <h2><font size="5"><i class="fa fa-book"></i> Publications</font></h2>
-<p>* Corresponding author &nbsp;&nbsp; # Co-first author </p>
-<p><b>Journal papers</b>:</p>
 
-<p><b>First-author papers</b>:</p>
-<font size="3"> 
-<ul>
+<style>
+/* ===== Publications 专用样式 ===== */
+.pub-note {
+    margin: 0.2rem 0 0.8rem 0;
+}
 
-<p style="text-indent: -1.6rem; margin-left: 0rem;">
-<span>[3] <b>吴华清</b>, 张朝*, 梅晴航, 李少坤, 李思畅, 徐佳路, 陶福禄. 2026.  
-环境-健康视角下中国城乡膳食结构与数量优化研究,
-<i>地理学报</i>.
-(中国科协高质量科技期刊分级目录T1等级)
-</span>
-</p>
+.pub-section-title {
+    margin: 0.6rem 0 0.4rem 0;
+    font-weight: bold;
+}
 
-<p style="text-indent: -1.6rem; margin-left: 0rem;">
-<span>[2] <b>H. Wu</b>, Z. Zhang*, J. Xu*, J. Song, J. Han, J. Zhang, Q. Mei, F. Cheng, H. Zhuang, S. Li. 2025.  
-Food consumption away from home had divergent impacts on diet nutrition quality across urban and rural China,
-<i>Food Security</i>.
-(<b>IF=5.6</b>，中科院一区TOP期刊) 
-[<a href="https://doi.org/10.1007/s12571-024-01514-4">Link</a>]
-[<a href="./Files/MyPaper2.pdf" target="_blank">PDF</a>] 
-</span>
-</p>
+.pub-subtitle {
+    margin: 0.5rem 0 0.35rem 0;
+    font-weight: bold;
+}
 
-<p style="text-indent: -1.6rem; margin-left: 0rem;">
-<span>[1] <b>H. Wu#</b>, J. Zhang#, Z. Zhang*, J. Han, J. Cao, L. Zhang, Y. Luo, Q. Mei, J. Xu, F. Tao, 2023. 
-AsiaRiceYield4km: seasonal rice yield in Asia from 1995 to 2015,
-<i>Earth System Science Data</i>.
-(<b>IF=11.815</b>，中科院一区TOP期刊) 
-[<a href="https://essd.copernicus.org/articles/15/791/2023/">Link</a>]
-[<a href="./Files/MyPaper1.pdf" target="_blank">PDF</a>] 
-</span>
-</p>
+.pub-area-title {
+    margin: 0.2rem 0 0.45rem 0;
+    font-style: italic;
+    color: #333;
+}
 
-</ul>
-</font>
+.pub-scroll-box {
+    max-height: 420px;
+    overflow-y: auto;
+    border: 1px solid #d9d9d9;
+    background: #fafafa;
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
 
-<p><b>Co-author papers</b>:</p>
-<p style="margin-bottom: 0.4rem;"><i>Agricultural &amp; Environmental Data and Modeling</i></p>
+.pub-scroll-box::-webkit-scrollbar {
+    width: 8px;
+}
 
-<font size="3"> 
-<ul>
+.pub-scroll-box::-webkit-scrollbar-thumb {
+    background: #c7c7c7;
+    border-radius: 6px;
+}
 
-<p style="margin-top: 0.4rem; margin-bottom: 0.2rem;">Selected publications</p>
+.pub-scroll-box::-webkit-scrollbar-track {
+    background: #f2f2f2;
+}
 
-<p style="text-indent: -1.6rem; margin-left: 0rem;">
-<span>[10] 
-J. Han, Z. Zhang, J. Xu, Y. Chen, J. Jonans, J. Cao, Y. Luo, F. Cheng, H. Zhuang, <b>H. Wu</b>, Q. Mei, J. Song, F. Tao, 2024. 
-Threat of low-frequency high-intensity floods to global cropland and crop yields,
-<i>Nature Sustainability</i>. (<b>IF=25.27</b>) <span style="color:#FF0000; font-weight:bold;">(Highly Cited Paper)</span>
-[<a href="https://doi.org/10.1038/s41893-024-01375-x">Link</a>]
-[<a href="./Files/CPaper7.pdf" target="_blank">PDF</a>] 
-</span>
-</p>
+.pub-group-label {
+    margin: 0.15rem 0 0.45rem 0;
+    font-weight: 600;
+    color: #222;
+}
 
-<p style="text-indent: -1.6rem; margin-left: 0rem;">
-<span>[9] J. Zhang, <b>H. Wu</b>, Z. Zhang*, L. Zhang, Y. Luo, J. Han, F. Tao, 2022.
-Asian Rice Calendar Dynamics Detected by Remote Sensing and Their Climate Drivers,
-<i>Remote Sensing</i>, 
-14, 17. 
-(<b>IF=5.349</b>) 
-[<a href="https://www.mdpi.com/2072-4292/14/17/4189/htm">Link</a>]
-[<a href="./Files/CPaper5.pdf" target="_blank">PDF</a>] 
-</span>
-</p>
+.pub-group-label.other {
+    margin-top: 0.9rem;
+}
 
-<p style="text-indent: -1.6rem; margin-left: 0rem;">
-<span>[8] P. Tian*, <b>H. Wu</b>, T. Yang, F. Jiang, W. Zhang, Z. Zhu, Q. Yue, M. Liu, and X. Xu, 2021. 
-Evaluation of urban water ecological civilization: A case study of three urban agglomerations in the Yangtze River Economic Belt, China, 
-<i>Ecological Indicators</i>, 
-123, 107351. 
-(<b>IF=4.958</b>) 
-[<a href="https://www.sciencedirect.com/science/article/pii/S1470160X21000169">Link</a>]
-[<a href="./Files/CPaper3.pdf" target="_blank">PDF</a>] 
-</span>
-</p>
+.pub-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
-<p style="margin-top: 0.4rem; margin-bottom: 0.2rem; color: #555;">Other publications</p>
+.pub-item {
+    margin: 0 0 0.5rem 0;
+    padding-left: 1.8rem;
+    text-indent: -1.8rem;
+    line-height: 1.42;
+}
 
-<p style="text-indent: -1.6rem; margin-left: 0rem;">
-<span>[7] 
-Q. Mei, Z. Zhang, J. Han, J. Song, F. Cheng, H. Zhuang, <b>H. Wu</b>, J. Xu, 2025. 
-Cultivar shifts have offset climate warming impacts on soybean phenology in China since 1981, 
-<i>Agricultural Systems</i>. 
-(<b>IF=6.1</b>) 
-[<a href="https://doi.org/10.1016/j.agsy.2024.104260">Link</a>]
-[<a href="./Files/CPaper10.pdf" target="_blank">PDF</a>] 
-</span>
-</p>
+.pub-item:last-child {
+    margin-bottom: 0;
+}
+</style>
 
-<p style="text-indent: -1.6rem; margin-left: 0rem;">
-<span>[6] 
-H. Zhuang, Z. Zhang, J. Han, F. Cheng, S. Li, <b>H. Wu</b>, Q. Mei, J. Song, X. Wu, Z. Zhang, J. Xu, 2024. 
-Stagnating rice yields in China need to be overcome by cultivars and management improvements, 
-<i>Agricultural Systems</i>. 
-(<b>IF=6.1</b>) 
-[<a href="https://doi.org/10.1016/j.agsy.2024.104134">Link</a>]
-[<a href="./Files/CPaper9.pdf" target="_blank">PDF</a>] 
-</span>
-</p>
+<p class="pub-note">* Corresponding author &nbsp;&nbsp; # Co-first author </p>
 
-<p style="text-indent: -1.6rem; margin-left: 0rem;">
-<span>[5] 
-Q. Mei, Z. Zhang, J. Han, J. Song, J. Dong, <b>H. Wu</b>, J. Xu, F. Tao, 2024. 
-ChinaSoyArea10m: a dataset of soybean-planting areas with a spatial resolution of 10 m across China from 2017 to 2021,
-<i>Earth System Science Data</i>. 
-(<b>IF=11.2</b>) 
-[<a href="https://doi.org/10.5194/essd-16-3213-2024">Link</a>]
-[<a href="./Files/CPaper8.pdf" target="_blank">PDF</a>] 
-</span>
-</p>
+<p class="pub-section-title"><b>Journal papers</b>:</p>
 
-<p style="text-indent: -1.6rem; margin-left: 0rem;">
-<span>[4] 
-梅晴航, 张朝, 骆玉川, <b>吴华清</b>, 陶福禄, 2023. 
-中国三大作物1 km分辨率种植面积数据集 (2009–2015年),
-<i>中国科学数据</i>, 8(3).  
-[<a href="https://kns.cnki.net/kcms2/article/abstract?v=AnKLoVmldNTUJhLeNi4fH_bXKRrRF07nfNhugp_XRjTay1wTRiLb-7bf0wQZRJCdaciE8P2CQfoTcTHVc2_PHCpV1vXgW9SgiUg6HqbQ3oDB0sSKbIp6fZCoCuq3yr_B7C3n7qy8fjxVKaT43MV6qQ==&uniplatform=NZKPT&language=CHS">Link</a>]
-[<a href="./Files/CPaper6.pdf" target="_blank">PDF</a>] 
-</span>
-</p>
+<p class="pub-subtitle"><b>First-author papers</b>:</p>
+<font size="3">
+<ul class="pub-list">
 
-<p style="text-indent: -1.6rem; margin-left: 0rem;">
-<span>[3] P. Tian, Y. Gong, F. Hao, L. Chen, Y. Yang, W. Guo*, <b>H. Wu</b>, W. Zhang, 2022.
-Comparing erosion and rill development processes by simulated upslope inflow in two red soils from subtropical China,
-<i>Catena</i>, 
-213, 106139. 
-(<b>IF=5.198</b>) 
-[<a href="https://www.sciencedirect.com/science/article/pii/S0341816222001254?via%3Dihub">Link</a>]
-[<a href="./Files/CPaper4.pdf" target="_blank">PDF</a>] 
-</span>
-</p>
+    <li class="pub-item">
+        <span>[3] <b>吴华清</b>, 张朝*, 梅晴航, 李少坤, 李思畅, 徐佳路, 陶福禄. 2026.
+        环境-健康视角下中国城乡膳食结构与数量优化研究,
+        <i>地理学报</i>.
+        (中国科协高质量科技期刊分级目录T1等级)
+        </span>
+    </li>
 
-<p style="text-indent: -1.6rem; margin-left: 0rem;">
-<span>[2] T. Wu, <b>H. Wu</b>, H. Lin, T. Yang, X. Wu, Y. Jie, and P. Tian*, 2020.
-Climate Change and Vegetation Evolution during the Transition from Marine Isotope Stage 5 to 4 Based on Two Typical Profiles at the Southern Chinese Loess Plateau, 
-<i>Sustainability</i>, 
-12(4), 1372. 
-(<b>IF=3.251</b>) 
-[<a href="https://www.mdpi.com/2071-1050/12/4/1372">Link</a>]
-[<a href="./Files/CPaper2.pdf" target="_blank">PDF</a>] 
-</span>
-</p>
+    <li class="pub-item">
+        <span>[2] <b>H. Wu</b>, Z. Zhang*, J. Xu*, J. Song, J. Han, J. Zhang, Q. Mei, F. Cheng, H. Zhuang, S. Li. 2025.
+        Food consumption away from home had divergent impacts on diet nutrition quality across urban and rural China,
+        <i>Food Security</i>.
+        (<b>IF=5.6</b>，中科院一区TOP期刊)
+        [<a href="https://doi.org/10.1007/s12571-024-01514-4">Link</a>]
+        </span>
+    </li>
 
-<p style="text-indent: -1.6rem; margin-left: 0rem;">
-<span>[1] P. Tian, <b>H. Wu</b>, T. Yang, W. Zhang, F. Jiang, Z. Zhang and T. Wu*, 2019.
-Environmental Risk Assessment of Accidental Pollution Incidents in Drinking Water Source Areas: A Case Study of the Hongfeng Lake Watershed, China, 
-<i>Sustainability</i>, 
-11(09), 5403. 
-(<b>IF=3.251</b>) 
-[<a href="https://www.mdpi.com/2071-1050/11/19/5403">Link</a>]
-[<a href="./Files/CPaper1.pdf" target="_blank">PDF</a>] 
-</span>
-</p>
+    <li class="pub-item">
+        <span>[1] <b>H. Wu#</b>, J. Zhang#, Z. Zhang*, J. Han, J. Cao, L. Zhang, Y. Luo, Q. Mei, J. Xu, F. Tao, 2023.
+        AsiaRiceYield4km: seasonal rice yield in Asia from 1995 to 2015,
+        <i>Earth System Science Data</i>.
+        (<b>IF=11.815</b>，中科院一区TOP期刊)
+        [<a href="https://essd.copernicus.org/articles/15/791/2023/">Link</a>]
+        </span>
+    </li>
 
 </ul>
 </font>
+
+<p class="pub-subtitle"><b>Co-author papers</b>:</p>
+<p class="pub-area-title"><i>Agricultural &amp; Environmental Data and Modeling</i></p>
+
+<font size="3">
+<div class="pub-scroll-box">
+
+    <p class="pub-group-label">Selected publications</p>
+    <ul class="pub-list">
+
+        <li class="pub-item">
+            <span>[10] J. Han, Z. Zhang, J. Xu, Y. Chen, J. Jonans, J. Cao, Y. Luo, F. Cheng, H. Zhuang, <b>H. Wu</b>, Q. Mei, J. Song, F. Tao, 2024.
+            Threat of low-frequency high-intensity floods to global cropland and crop yields,
+            <i>Nature Sustainability</i>. (<b>IF=25.27</b>)
+            <span style="color:#FF0000; font-weight:bold;">(Highly Cited Paper)</span>
+            [<a href="https://doi.org/10.1038/s41893-024-01375-x">Link</a>]
+            </span>
+        </li>
+
+        <li class="pub-item">
+            <span>[9] J. Zhang, <b>H. Wu</b>, Z. Zhang*, L. Zhang, Y. Luo, J. Han, F. Tao, 2022.
+            Asian Rice Calendar Dynamics Detected by Remote Sensing and Their Climate Drivers,
+            <i>Remote Sensing</i>, 14, 17.
+            (<b>IF=5.349</b>)
+            [<a href="https://www.mdpi.com/2072-4292/14/17/4189/htm">Link</a>]
+            </span>
+        </li>
+
+        <li class="pub-item">
+            <span>[8] P. Tian*, <b>H. Wu</b>, T. Yang, F. Jiang, W. Zhang, Z. Zhu, Q. Yue, M. Liu, and X. Xu, 2021.
+            Evaluation of urban water ecological civilization: A case study of three urban agglomerations in the Yangtze River Economic Belt, China,
+            <i>Ecological Indicators</i>, 123, 107351.
+            (<b>IF=4.958</b>)
+            [<a href="https://www.sciencedirect.com/science/article/pii/S1470160X21000169">Link</a>]
+            </span>
+        </li>
+
+    </ul>
+
+    <p class="pub-group-label other">Other publications</p>
+    <ul class="pub-list">
+
+        <li class="pub-item">
+            <span>[7] Q. Mei, Z. Zhang, J. Han, J. Song, F. Cheng, H. Zhuang, <b>H. Wu</b>, J. Xu, 2025.
+            Cultivar shifts have offset climate warming impacts on soybean phenology in China since 1981,
+            <i>Agricultural Systems</i>.
+            (<b>IF=6.1</b>)
+            [<a href="https://doi.org/10.1016/j.agsy.2024.104260">Link</a>]
+            </span>
+        </li>
+
+        <li class="pub-item">
+            <span>[6] H. Zhuang, Z. Zhang, J. Han, F. Cheng, S. Li, <b>H. Wu</b>, Q. Mei, J. Song, X. Wu, Z. Zhang, J. Xu, 2024.
+            Stagnating rice yields in China need to be overcome by cultivars and management improvements,
+            <i>Agricultural Systems</i>.
+            (<b>IF=6.1</b>)
+            [<a href="https://doi.org/10.1016/j.agsy.2024.104134">Link</a>]
+            </span>
+        </li>
+
+        <li class="pub-item">
+            <span>[5] Q. Mei, Z. Zhang, J. Han, J. Song, J. Dong, <b>H. Wu</b>, J. Xu, F. Tao, 2024.
+            ChinaSoyArea10m: a dataset of soybean-planting areas with a spatial resolution of 10 m across China from 2017 to 2021,
+            <i>Earth System Science Data</i>.
+            (<b>IF=11.2</b>)
+            [<a href="https://doi.org/10.5194/essd-16-3213-2024">Link</a>]
+            </span>
+        </li>
+
+        <li class="pub-item">
+            <span>[4] 梅晴航, 张朝, 骆玉川, <b>吴华清</b>, 陶福禄, 2023.
+            中国三大作物1 km分辨率种植面积数据集 (2009–2015年),
+            <i>中国科学数据</i>, 8(3).
+            [<a href="https://kns.cnki.net/kcms2/article/abstract?v=AnKLoVmldNTUJhLeNi4fH_bXKRrRF07nfNhugp_XRjTay1wTRiLb-7bf0wQZRJCdaciE8P2CQfoTcTHVc2_PHCpV1vXgW9SgiUg6HqbQ3oDB0sSKbIp6fZCoCuq3yr_B7C3n7qy8fjxVKaT43MV6qQ==&uniplatform=NZKPT&language=CHS">Link</a>]
+            </span>
+        </li>
+
+        <li class="pub-item">
+            <span>[3] P. Tian, Y. Gong, F. Hao, L. Chen, Y. Yang, W. Guo*, <b>H. Wu</b>, W. Zhang, 2022.
+            Comparing erosion and rill development processes by simulated upslope inflow in two red soils from subtropical China,
+            <i>Catena</i>, 213, 106139.
+            (<b>IF=5.198</b>)
+            [<a href="https://www.sciencedirect.com/science/article/pii/S0341816222001254?via%3Dihub">Link</a>]
+            </span>
+        </li>
+
+        <li class="pub-item">
+            <span>[2] T. Wu, <b>H. Wu</b>, H. Lin, T. Yang, X. Wu, Y. Jie, and P. Tian*, 2020.
+            Climate Change and Vegetation Evolution during the Transition from Marine Isotope Stage 5 to 4 Based on Two Typical Profiles at the Southern Chinese Loess Plateau,
+            <i>Sustainability</i>, 12(4), 1372.
+            (<b>IF=3.251</b>)
+            [<a href="https://www.mdpi.com/2071-1050/12/4/1372">Link</a>]
+            </span>
+        </li>
+
+        <li class="pub-item">
+            <span>[1] P. Tian, <b>H. Wu</b>, T. Yang, W. Zhang, F. Jiang, Z. Zhang and T. Wu*, 2019.
+            Environmental Risk Assessment of Accidental Pollution Incidents in Drinking Water Source Areas: A Case Study of the Hongfeng Lake Watershed, China,
+            <i>Sustainability</i>, 11(09), 5403.
+            (<b>IF=3.251</b>)
+            [<a href="https://www.mdpi.com/2071-1050/11/19/5403">Link</a>]
+            </span>
+        </li>
+
+    </ul>
+</div>
+</font>
+
 <br />
 <br />
 
 <p><b>Conference papers</b>: </p>
-<font size="3"> 
-<ul>
-<p style="text-indent: -1.6rem;margin-left: 0rem;">
-<span>[1] <b>吴华清</b>, 方建, 栾一博, 2021. 
-基于灾害响应过程的城市洪涝灾害韧性评价,
-<i>面向高质量发展的空间治理——2021中国城市规划年会论文集 (01城市安全与防灾规划)</i>, pp.368-378, 
-成都, 中国, 2021. [<a href= "https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CPFD&dbname=CPFDTEMP&filename=ZHCG202109001036&uniplatform=NZKPT&v=1KsIT9Fqm85GoQ5xqKwVdD1FQfgA52FAE2g81n4kju22Y7qZ8vvI3H6nBkgC5Nhbhpdyl8fserE%3d">Link</a>]
-[<a href= "./Files/CP1.pdf" target="_blank">PDF</a>]
-</span> </p>
+<font size="3">
+<ul class="pub-list">
+    <li class="pub-item">
+        <span>[1] <b>吴华清</b>, 方建, 栾一博, 2021.
+        基于灾害响应过程的城市洪涝灾害韧性评价,
+        <i>面向高质量发展的空间治理——2021中国城市规划年会论文集 (01城市安全与防灾规划)</i>, pp.368-378,
+        成都, 中国, 2021.
+        [<a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CPFD&dbname=CPFDTEMP&filename=ZHCG202109001036&uniplatform=NZKPT&v=1KsIT9Fqm85GoQ5xqKwVdD1FQfgA52FAE2g81n4kju22Y7qZ8vvI3H6nBkgC5Nhbhpdyl8fserE%3d">Link</a>]
+        </span>
+    </li>
 </ul>
 </font>
+
 <br />
-<br /> 
+<br />
 
 <p><b>Books</b>: </p>
-<font size="3"> 
-<ul>
-<p style="text-indent: -1.6rem;margin-left: 0rem;">
-<span>[1] 张朝, 李子悦, 韩继冲等. 地理大数据与公共健康————R语言应用实战, <i>科学出版社</i>, 2021. (参与编写) [<a href= "https://www.ecsponline.com/goods.php?id=213279">Link</a>] [<a href= "./Files/book1.pdf" target="_blank">PDF</a>]
-<ul>
-<li><b>吴华清</b>, 张朝. 第四章, R语言的可视化工具, pp102-162.</li>
-<li><b>吴华清</b>, 梅晴航, 金月雄, 张朝. 第八章, 极端温度与公共健康案例研究, pp321-379.</li>
-</ul> 
-</span>
-</p> 
-</ul>
-
-<p><b>Data sets</b>: </p>
-<font size="3"> 
-<ul>
-
-<p style="text-indent: -1.6rem;margin-left: 0rem;">
-<span>[4] 张静, <b>吴华清</b>, 张朝, 2023. 
-1995-2015年亚洲主要国家多种植制度水稻4km物候格点数据集, 
-<i>国家生态科学数据中心</i>.
-[<a href= "https://cstr.cn/15732.11.nesdc.ecodb.pa.2023.011">Link</a>]
-</span>
-</p>
-
-<p style="text-indent: -1.6rem;margin-left: 0rem;">
-<span>[3] Q. Mei, Z. Zhang, J. Han, J. Song, J. Dong, <b>H. Wu</b>, J. Xu, F. Tao, 2023. 
-ChinaSoyArea10m: a dataset of soybean planting areas with a spatial resolution of 10 m across China from 2017 to 2021, 
-<i>Zenodo</i>.
-[<a href= "https://zenodo.org/records/10071427">Link</a>]
-</span>
-</p>
- 
-<p style="text-indent: -1.6rem;margin-left: 0rem;">
-<span>[2] Q. Mei, Z. Zhang, Y. Luo, <b>H. Wu</b>, F. Tao, 2022. 
-A 1km resolution dataset of planting area of three staple crops in China during 2009-2015 V2 (ChinaCropArea1kmV2), 
-<i>Science Data Bank</i>.
-[<a href= "https://www.scidb.cn/en/detail?dataSetId=e379a388063c4616a6e9271a0b411c9b">Link</a>] (<font color="#FF0000">中国科学院空天信息创新研究院优秀共享开放遥感数据集2023年十大最具价值年度数据集</font>)
-</span>
-</p>
- 
-<p style="text-indent: -1.6rem;margin-left: 0rem;">
-<span>[1] <b>H. Wu#</b>, J. Zhang#, Z. Zhang, J. Han, J. Cao, L. Zhang, Y. Luo, Q. Mei, J. Xu, F. Tao, 2022. 
-AsiaRiceYield4km: Seasonal Rice Yield in Asia from 1995 to 2015,
-<i>Zenodo</i>.
-[<a href= "https://zenodo.org/record/6901968#.YwghE3FByMo">Link1</a>][[<a href= "http://www.nesdc.org.cn/sdo/detail?id=63fca7e67e281740ae0f289f">Link2</a>]
-(<font color="#FF0000">中国科学院空天信息创新研究院优秀共享开放遥感数据集2023年十大最具价值年度数据集支撑数据</font>)
-</span>
-</p>
-
-</ul>
-
-<br />
